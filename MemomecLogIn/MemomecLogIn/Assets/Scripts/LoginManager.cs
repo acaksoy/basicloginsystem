@@ -31,7 +31,7 @@ public class LoginManager : MonoBehaviour
 
 
 
-    void LoginClicked()
+    private void LoginClicked()
     {
         if(_usernameInput.text == "" || _passwordInput.text == "") // Check if inputfields are empty.
         {
